@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papelería y Variedades Maye - Gestión de Inventario</title>
+  <link rel="icon" type="image/x-icon" href="../assets/images/papeleria.png"/>
+  <link rel="stylesheet" href="../assets/css/index.css">
+</head>
+<body>
+  <header>
+    <h1>Papelería y Variedades Maye</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#inventario">Inventario</a></li>
+        <li><a href="#ventas">Ventas</a></li>
+        <li><a href="#proveedores">Proveedores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Resumen</h2>
+      <!-- Aquí irían los gráficos o visualizaciones del inventario y las ventas -->
+    </section>
+
+    <section id="inventario">
+      <h2>Gestión de Inventario</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Categoría</th>
+            <th>Cantidad</th>
+            <th>Proveedor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Aquí se mostrarían los productos en filas de la tabla -->
+        </tbody>
+      </table>
+      <button id="agregarProducto">Agregar Producto</button>
+    </section>
+
+    <section id="ventas">
+      <h2>Gestión de Ventas</h2>
+      <form id="nuevaVentaForm">
+        <label for="producto">Producto:</label>
+        <select id="producto" name="producto">
+          <!-- Aquí se mostrarían las opciones de productos -->
+        </select>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad">
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+        <button type="submit">Registrar Venta</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Total</th>
+            <th>Fecha</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Aquí se mostrarían las ventas en filas de la tabla -->
+        </tbody>
+      </table>
+    </section>
+
+    <section id="proveedores">
+      <h2>Gestión de Proveedores</h2>
+      <ul>
+        <!-- Aquí se mostrarían los proveedores en una lista -->
+      </ul>
+      <button id="agregarProveedor">Agregar Proveedor</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Papelería y Variedades Maye. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
