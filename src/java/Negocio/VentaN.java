@@ -4,10 +4,22 @@
  */
 package Negocio;
 
+import Dao.VentaDAO;
+
 /**
  *
  * @author Efranor
  */
 public class VentaN {
-    
+
+    private VentaDAO dao;
+
+    public VentaN() {
+        dao = new VentaDAO();
+    }
+
+    public void crear() {
+
+    }
+
 }

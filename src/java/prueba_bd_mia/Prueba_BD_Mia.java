@@ -21,7 +21,7 @@ public class Prueba_BD_Mia {
      */
     public static void main(String[] args) {
         DevolucionC devo = new DevolucionC();
-        devo.registrarDevolucion(new Devolucion(1010, 1001, 1030, new Date(1, 2, 3), 10, "falla producto"));
+        devo.registrarDevolucion(new Devolucion(10101, 1001, 1030, new Date(1, 2, 3), 10, "falla producto"));
     }
 
 }
